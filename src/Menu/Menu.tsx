@@ -1,7 +1,9 @@
-import Wrap1 from '/wrap1.jpg'
-import Plate1 from '/plate1.jpg'
+import Momo2 from '/momo2.jpg'
+import Momo1 from '/momo1.jpeg'
 import Menu1 from '/menu1.jpg'
 import Menu2 from '/menu2.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
 
 function Menu() {
 
@@ -23,6 +25,7 @@ function Menu() {
           text-balance
           text-white
           sm:text-7xl
+          font-[Comfortaa]
         '>
           Our Menu
         </h1>
@@ -65,14 +68,14 @@ function Menu() {
               text-gray-800
               min-w-[200px]
             '>
-              ▼ Chicken Shawarma Wrap - $7.49
+              ▼ Steamed Chicken Momo - $9.49
             </h3>
             <p className='
               text-gray-600
               text-lg
               leading-relaxed
             '>
-              The chicken shawarma wrap at Shawarma Empire is a flavorful blend of thinly sliced, marinated chicken, grilled to perfection and wrapped in a soft pita. It's layered with fresh veggies, tangy pickles, and creamy garlic and tahini sauce, delivering a bold, savory bite in every mouthful.
+              10 pieces. Our steamed chicken momos are a delightful treat for dumpling enthusiasts. Each momo is filled with a savory blend of halal chicken mince, onions, and green chilies, all encased in a tender, steamed wrapper. 
             </p>
           </div>
           <div className='
@@ -83,24 +86,28 @@ function Menu() {
             md:my-8
           '>
             <img 
-              src={Wrap1} 
+              src={Momo2} 
               className='
                 object-cover
                 h-80
+                w-full
                 flex-grow
                 rounded-lg
                 shadow-2xl
                 md:-mt-8
+                md:w-1/4
               '
             />
             <img 
-              src={Plate1} 
+              src={Momo1} 
               className='
                 object-cover
                 h-80
+                w-full
                 flex-grow
                 rounded-lg
                 shadow-2xl
+                md:w-1/4
                 md:-mb-8
               '
             />
@@ -117,7 +124,7 @@ function Menu() {
               leading-relaxed
               text-right
             '>
-              The beef shawarma plate at Shawarma Empire features tender, marinated strip loin beef, thinly sliced and served over a bed of seasoned rice. Accompanied by fresh salad and creamy hummus, this hearty dish offers a satisfying taste of authentic Middle Eastern cuisine.
+              10 pieces. These dumplings feature a flavorful filling of halal chicken mince, onions, and green chilies, encased in a crispy, golden-brown wrapper. Each order is accompanied by a special sauce that complements the savory notes of the momos.
             </p>
             <h3 className='
               text-3xl
@@ -125,31 +132,32 @@ function Menu() {
               text-gray-800
               min-w-[200px]
             '>
-              ▲ Beef Shawarma Plate - $15.99
+              ▲ Fried Chicken Momo - $9.49
             </h3>
           </div>
         </div>
 
-        {/* Reviews Section */}
         <div className='
           flex
           flex-col
           items-center
           gap-8
         '>
-          <h2 className='
-            text-4xl
-            font-semibold
-            text-gray-800
-            text-nowrap
+          <a href="https://www.doordash.com/en-CA/store/halal-momos-toronto-26332233/29683575/" target="_blank" rel="noopener noreferrer"
+            className='
+            my-8
           '>
-            Full Menu (Click to Expand)
-          </h2>
-          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg" target="_blank" rel="noopener noreferrer">
-            <img src={Menu1} />
-          </a>
-          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu2.jpg" target="_blank" rel="noopener noreferrer">
-            <img src={Menu2} />
+            <h2 className='
+              text-4xl
+              font-semibold
+              text-red-800
+              text-nowrap
+              underline
+              flex
+              gap-2
+            '>
+              Full Menu<FontAwesomeIcon icon={faExternalLink} />
+            </h2>
           </a>
         </div>
       </div>

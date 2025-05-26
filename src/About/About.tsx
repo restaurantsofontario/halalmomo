@@ -1,7 +1,7 @@
 import Hours from '../Hours/Hours'
 import Location from '../Location/Location'
-import Ahed from '/ahed.jpg'
-import Fresh from '/fresh.jpg'
+import Samosa2 from '/samosa2.jpeg'
+import Plate1 from '/plate1.jpeg'
 
 function About() {
 
@@ -23,6 +23,7 @@ function About() {
           text-balance
           text-white
           sm:text-7xl
+          font-[Comfortaa]
         '>
           Our Story
         </h1>
@@ -66,7 +67,7 @@ function About() {
                 text-gray-800
                 text-center
               '>
-                Authentic Food in your Neighbourhood
+                Comfort Food From Small Beginnings
               </h3>
               <p className='
                 text-center
@@ -75,11 +76,11 @@ function About() {
                 leading-relaxed
                 flex-grow
               '>
-                Ahed started this place with a passion for sharing the food he grew up with in the West Bank. From day one, he's been hands-on, making sure every dish that leaves the kitchen reflects the same quality and care he's always believed in. People come here for the shawarma, but they come back for the warmth and heart we put into everything. It's that mix of tradition, flavor, and generosity that's made Shawarma Empire a Scarborough staple.
+                Halal Momo began as a modest eatery with a passion for delivering authentic South Asian flavors. Specializing in halal momos and biryani, the restaurant quickly gained popularity among locals for its flavorful dishes and commitment to quality. Over time, their dedication to authentic recipes and consistent service led to a growing customer base. Today, Halal Momo and Biryani stands as a testament to how small beginnings, fueled by passion and hard work, can lead to culinary success in a diverse community like Scarborough.
               </p>
             </div>
             <img 
-              src={Ahed} 
+              src={Samosa2} 
               className='
                 object-cover
                 rounded-lg
@@ -97,7 +98,7 @@ function About() {
             gap-4
           '>
             <img 
-              src={Fresh} 
+              src={Plate1} 
               className='
                 object-cover
                 rounded-lg
@@ -119,7 +120,7 @@ function About() {
                 text-gray-800
                 text-center
               '>
-                Never less than Fresh
+                No Flavour left behind
               </h3>
               <p className='
                 text-center
@@ -128,7 +129,7 @@ function About() {
                 leading-relaxed
                 flex-grow
               '>
-                At Shawarma Empire, fresh ingredients are at the heart of everything we make. Every morning, we prep our veggies by hand — crisp lettuce, juicy tomatoes, crunchy cucumbers, and bright parsley, all chopped fresh daily. Our meats are marinated in-house with a blend of traditional Middle Eastern spices, then slow-cooked to lock in flavor and tenderness. We don’t cut corners — from our creamy hummus to our tangy pickled turnips, everything is made with care using real, quality ingredients. It’s that commitment to freshness that keeps our food tasting bold, vibrant, and true to its roots.
+                Halal Momo has built its reputation on serving food that's consistently fresh, flavorful, and made with care. Every dish, from their signature momos to the richly spiced biryani, is crafted using high-quality halal ingredients and prepared fresh to order. The steamed and fried chicken momos are packed with juicy, well-seasoned filling, while the biryani offers a perfect blend of aromatic spices and tender meat that speaks to traditional South Asian cooking. The sauces and chutneys served alongside the dishes are house-made and elevate the flavors even further. Whether you're trying their crispy fried snacks or digging into a hearty main, each item reflects their commitment to freshness, authenticity, and customer satisfaction.
               </p>
             </div>
           </div>

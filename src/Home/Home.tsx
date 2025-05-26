@@ -1,6 +1,6 @@
 import Hours from '../Hours/Hours'
 import StoreFront from '/front.jpg'
-import Wrap1 from '/wrap1.jpg'
+import Momo1 from '/momo1.jpeg'
 
 function Home() {
   return (
@@ -21,22 +21,14 @@ function Home() {
           text-balance
           text-white
           sm:text-7xl
-          italic
+          font-[Comfortaa]
+          bg-red-900
+          rounded-full
+          px-6
+          py-4
         '>
-          SHAWARMA EMPIRE
+          Halal Momo
         </h1>
-        <p className='
-          mt-8
-          text-lg
-          font-medium
-          text-pretty
-          text-red-200
-          font-mono
-          text-center
-          px-4
-        '>
-          AUTHENTIC PALESTINIAN CUISINE SINCE 2019
-        </p>
       </div>
       {/* Content */}
       <div className='
@@ -63,7 +55,7 @@ function Home() {
             text-gray-800
             mb-4
           '>
-            Serving the Heart of Scarborough since 2019
+            Scarborough's Go-To Momo Spot
           </h2>
           <p className='
             text-center
@@ -72,13 +64,13 @@ function Home() {
             leading-relaxed
             mb-6
           '>
-            Discover the rich flavors of authentic Middle Eastern cuisine at Shawarma Empire. From our perfectly spiced shawarma to freshly prepared sides and desserts, we’re proud to serve food that’s made with tradition, care, and bold taste. Whether you’re dining in or taking out, satisfaction is always on the menu.
+            Halal Momo and Biryani is Scarborough's momo gem, offering a delightful fusion of South Asian and Indo-Chinese flavors. This modest eatery has garnered praise for its flavorful dishes, particularly the chicken momos that offer a satisfying experience for dumpling lovers.
           </p>
           <div className='
             flex
           '>
             <img 
-              src={Wrap1} 
+              src={Momo1} 
               className='
                 object-cover
                 w-1/4
@@ -134,11 +126,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"This was the best dinner!! The salad is super fresh, rice was so flavourful, and the protein portions are generous. I also really liked their hot sauce. Highly recommend!!!"</p>
+              <p>"Best momo shop hidden in a variety store in town. Really well spiced chicken momos, super friendly people and good service."</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Stephanie via Google</span>
+              '>– Mark via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -146,11 +138,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"If you're craving authentic shawarma, this place is a must-visit!"</p>
+              <p>"Hands down the best halal momo spot in town! From the juicy fillings to the perfect dough, every bite is a flavor explosion. You won't be disappointed! "</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Ramin via Google</span>
+              '>– Sanju via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -158,11 +150,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"I’ve been here hundreds of times over a decade and not only is it hands down still the best shawarma and falafel, but don’t sleep on the lentil soup! Liquid gold I tell you."</p>
+              <p>"Great food and great prices."</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Alex via Google</span>
+              '>– Mir via Google</span>
             </div>
           </div>
         </div>

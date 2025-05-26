@@ -19,6 +19,8 @@ function App() {
         bg-[url(/background.png)]
         bg-fixed
         bg-cover
+        bg-right
+        xl:bg-center
       '>
         <div className='
           w-full
@@ -34,7 +36,6 @@ function App() {
           {activeTab === 'About' ? <About/> : ''}
           {activeTab === 'Contact' ? <Contact/> : ''}
 
-          
           <Footer setActiveTab={setActiveTab}/>
         </div>
       </div>

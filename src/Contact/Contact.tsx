@@ -23,6 +23,7 @@ function Contact() {
           text-balance
           text-white
           sm:text-7xl
+          font-[Comfortaa]
         '>
           Contact Us
         </h1>
@@ -57,7 +58,7 @@ function Contact() {
             justify-center
             gap-4
           '>
-            <FontAwesomeIcon icon={faPhone} /><a href="tel:+14162851337" className='underline hover:text-blue-500'>+1 416 285 1337</a>
+            <FontAwesomeIcon icon={faPhone} /><a href="tel:+14383081103" className='underline hover:text-blue-500'>+1 438 308 1103</a>
           </div>
           <div className='
             flex
