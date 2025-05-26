@@ -1,7 +1,5 @@
 import Momo2 from '/momo2.jpg'
 import Momo1 from '/momo1.jpeg'
-import Menu1 from '/menu1.jpg'
-import Menu2 from '/menu2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
 
